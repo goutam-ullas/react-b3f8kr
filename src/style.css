@@ -285,3 +285,12 @@ button[aria-label][data-balloon-pos] {
 .rubber-slider-input {
   pointer-events: none;
 }
+
+.rating-value {
+  line-height: 1;
+  align-self: flex-end;
+  padding-right: 30px;
+  font-size: 15rem;
+  color: var(--rubber-slider-ui);
+  opacity: 0.5;
+}
